@@ -8,6 +8,7 @@ import img from "./saudiV2.jpg";
 
 
 export default function Header() {
+<<<<<<< HEAD:src/Component/Header.js
   const [showVid, setShowVid] = useState(false)
   const sratr = () => {
 
@@ -28,4 +29,13 @@ export default function Header() {
 
     </div>
   );
+=======
+    return (
+        <div>
+            
+            <h1>  Header:شغل لولو الحلو </h1>
+
+        </div>
+    )
+>>>>>>> 5bb74fb8ed26610c2d7573b0dd5115b94f82379c:frontend/src/Component/Header.js
 }
